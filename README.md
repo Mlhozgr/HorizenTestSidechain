@@ -33,7 +33,8 @@ Senkronizasyon işleminin bittiğinden emin olmalıyız.
 
 
 tZEN’leri Elde Etme
-Sıra geldi test işlemi için gerekli olan ZEN’lerimize.Bu ZEN’leri https://heap.horizen.io adresinden alabiliriz.Buraya cüzdan adresi olarak Sphere Horizen içinde oluşturduğumuz cüzdanımızın adresini giriyoruz.
+Sıra geldi test işlemi için gerekli olan ZEN’lerimize.Bu ZEN’leri https://heap.horizen.io adresinden alabiliriz.
+Buraya cüzdan adresi olarak Sphere Horizen içinde oluşturduğumuz cüzdanımızın adresini giriyoruz.
 
 
 
