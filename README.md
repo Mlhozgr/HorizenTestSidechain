@@ -42,9 +42,9 @@ Buraya cüzdan adresi olarak Sphere Horizen içinde oluşturduğumuz cüzdanım�
 
 Bir sonraki aşamaya geçmeden önce bilgisayarımızda bazı yazılımların yüklü olduğundan emin olmamız gerekiyor.
 Bu yazılımlar 
-Java 8.0 versiyonu ya da daha yenisi                    : https://java.com/tr/download/
-Maven                                                                        : https://maven.apache.org/download.cgi
-Scala                                                                          : https://www.scala-lang.org/download/
+- Java 8.0 versiyonu ya da daha yenisi                    : https://java.com/tr/download/
+- Maven                                                                        : https://maven.apache.org/download.cgi
+- Scala                                                                          : https://www.scala-lang.org/download/
 
 
 -Şimdi geldik yan zincirin bileşenlerini bilgisayarımıza çekmeye.Bu işlem için komut satırımıza şu kodu girelim:
@@ -56,19 +56,19 @@ Scala                                                                          :
 - $   mvn  package
 - Bu işlemleri doğru ve eksiksiz bir biçimde yapıp maven derlemesinden sonra komut satırında “BUILD SUCCESS” yazısını gördüğünüzden emin olun.
 
--Önyükleme(Boostrapping)
--Sıra geldi önyüklemeye.(Boostrapping)
--Bu işlem için; https://github.com/HorizenOfficial/Sidechains-SDK/blob/master/examples/simpleapp/README.md buradaki adımları rehber alıcaz.
--Öncelikle Sidechain-SDK dizini içinde olduğumuzdan emin olalım.
--Önyükleme işlemi için;
--$ java -jar tools/sctool/target/sidechains-sdk-scbootstrappingtools-0.2.5.jar 
--Bu işlemin devamında
--$ generatekey {"seed":"my seed"} 
--yazarak bize özel anahtarımızı oluşturuyoruz.
--$ generateVrfKey {"seed":"my seed"}
--son olarak 
--$ generateProofInfo {"seed":"my seed", "keyCount":7, "threshold":5}
--Burada aldığımız anahtarlar transfer işlemimiz için gerekli olan anahtarlardı.
+- Önyükleme(Boostrapping)
+- Sıra geldi önyüklemeye.(Boostrapping)
+- Bu işlem için; https://github.com/HorizenOfficial/Sidechains-SDK/blob/master/examples/simpleapp/README.md buradaki adımları rehber alıcaz.
+- Öncelikle Sidechain-SDK dizini içinde olduğumuzdan emin olalım.
+- Önyükleme işlemi için;
+- $ java -jar tools/sctool/target/sidechains-sdk-scbootstrappingtools-0.2.5.jar 
+- Bu işlemin devamında
+- $ generatekey {"seed":"my seed"} 
+- yazarak bize özel anahtarımızı oluşturuyoruz.
+- $ generateVrfKey {"seed":"my seed"}
+- son olarak 
+- $ generateProofInfo {"seed":"my seed", "keyCount":7, "threshold":5}
+- Burada aldığımız anahtarlar transfer işlemimiz için gerekli olan anahtarlardı.
 
 
 *Bir sonraki adıma geçmeden önce kesinlikle komut satırını kapatmayın.Buradaki anahtarlara ihtiyacımız olacak.* 
