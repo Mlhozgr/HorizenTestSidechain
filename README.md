@@ -47,28 +47,28 @@ Maven                                                                        : h
 Scala                                                                          : https://www.scala-lang.org/download/
 
 
-Şimdi geldik yan zincirin bileşenlerini bilgisayarımıza çekmeye.Bu işlem için komut satırımıza şu kodu girelim:
-$   git clone https://github.com/ZencashOfficial/Sidechains-SDK.git
+-Şimdi geldik yan zincirin bileşenlerini bilgisayarımıza çekmeye.Bu işlem için komut satırımıza şu kodu girelim:
+-$   git clone https://github.com/ZencashOfficial/Sidechains-SDK.git
 
-Şimdi ana dizinimizi bu dizin yapalım.
-$   cd Sidechains-SDK
-Dizinimize geçtikten sonra maven ile derleme yapalım.
-$   mvn  package
-Bu işlemleri doğru ve eksiksiz bir biçimde yapıp maven derlemesinden sonra komut satırında “BUILD SUCCESS” yazısını gördüğünüzden emin olun.
+-Şimdi ana dizinimizi bu dizin yapalım.
+-$   cd Sidechains-SDK
+-Dizinimize geçtikten sonra maven ile derleme yapalım.
+-$   mvn  package
+-Bu işlemleri doğru ve eksiksiz bir biçimde yapıp maven derlemesinden sonra komut satırında “BUILD SUCCESS” yazısını gördüğünüzden emin olun.
 
-Önyükleme(Boostrapping)
-Sıra geldi önyüklemeye.(Boostrapping)
-Bu işlem için; https://github.com/HorizenOfficial/Sidechains-SDK/blob/master/examples/simpleapp/README.md buradaki adımları rehber alıcaz.
-Öncelikle Sidechain-SDK dizini içinde olduğumuzdan emin olalım.
-Önyükleme işlemi için;
-$ java -jar tools/sctool/target/sidechains-sdk-scbootstrappingtools-0.2.5.jar 
-Bu işlemin devamında
-$ generatekey {"seed":"my seed"} 
-yazarak bize özel anahtarımızı oluşturuyoruz.
-$ generateVrfKey {"seed":"my seed"}
-son olarak 
-$ generateProofInfo {"seed":"my seed", "keyCount":7, "threshold":5}
-Burada aldığımız anahtarlar transfer işlemimiz için gerekli olan anahtarlardı.
+-Önyükleme(Boostrapping)
+-Sıra geldi önyüklemeye.(Boostrapping)
+-Bu işlem için; https://github.com/HorizenOfficial/Sidechains-SDK/blob/master/examples/simpleapp/README.md buradaki adımları rehber alıcaz.
+-Öncelikle Sidechain-SDK dizini içinde olduğumuzdan emin olalım.
+-Önyükleme işlemi için;
+-$ java -jar tools/sctool/target/sidechains-sdk-scbootstrappingtools-0.2.5.jar 
+-Bu işlemin devamında
+-$ generatekey {"seed":"my seed"} 
+-yazarak bize özel anahtarımızı oluşturuyoruz.
+-$ generateVrfKey {"seed":"my seed"}
+-son olarak 
+-$ generateProofInfo {"seed":"my seed", "keyCount":7, "threshold":5}
+-Burada aldığımız anahtarlar transfer işlemimiz için gerekli olan anahtarlardı.
 
 
 *Bir sonraki adıma geçmeden önce kesinlikle komut satırını kapatmayın.Buradaki anahtarlara ihtiyacımız olacak.* 
