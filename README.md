@@ -50,11 +50,11 @@ Scala                                                                          :
 -Şimdi geldik yan zincirin bileşenlerini bilgisayarımıza çekmeye.Bu işlem için komut satırımıza şu kodu girelim:
 -$   git clone https://github.com/ZencashOfficial/Sidechains-SDK.git
 
--Şimdi ana dizinimizi bu dizin yapalım.
--$   cd Sidechains-SDK
--Dizinimize geçtikten sonra maven ile derleme yapalım.
--$   mvn  package
--Bu işlemleri doğru ve eksiksiz bir biçimde yapıp maven derlemesinden sonra komut satırında “BUILD SUCCESS” yazısını gördüğünüzden emin olun.
+- Şimdi ana dizinimizi bu dizin yapalım.
+- $   cd Sidechains-SDK
+- Dizinimize geçtikten sonra maven ile derleme yapalım.
+- $   mvn  package
+- Bu işlemleri doğru ve eksiksiz bir biçimde yapıp maven derlemesinden sonra komut satırında “BUILD SUCCESS” yazısını gördüğünüzden emin olun.
 
 -Önyükleme(Boostrapping)
 -Sıra geldi önyüklemeye.(Boostrapping)
